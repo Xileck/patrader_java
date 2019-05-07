@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PATRADER">
+    <output-path>C:/tomcat8/webapps/lib</output-path>
+    <root id="archive" name="PATRADER_ RESTful.jar">
+      <element id="module-output" name="SGD" />
+      <element id="library" level="project" name="Maven: com.itextpdf:kernel:7.0.4" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.13" />
+      <element id="library" level="project" name="Maven: com.itextpdf:io:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:layout:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:forms:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:pdfa:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:sign:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:barcodes:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:font-asian:7.0.4" />
+      <element id="library" level="project" name="Maven: com.itextpdf:hyph:7.0.4" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.13" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.2.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.2.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.2.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.2.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.2.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.2.3" />
+      <element id="library" level="project" name="Maven: com.auth0:java-jwt:3.2.0" />
+      <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+      <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.55" />
+      <element id="javaee-facet-resources" facet="SGD/web/Web" />
+    </root>
+  </artifact>
+</component>
