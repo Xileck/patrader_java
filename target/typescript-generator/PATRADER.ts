@@ -1,8 +1,10 @@
 /* tslint:disable */
 /* eslint-disable */
-// Generated using typescript-generator version 2.14.505 on 2019-05-08 10:44:21.
+// Generated using typescript-generator version 2.14.505 on 2019-05-08 10:48:03.
 
 export class Almacen {
+    idAlmacen: number;
+    identificacion: string;
 }
 
 export class Bulto {
