@@ -1,7 +1,5 @@
 package com.patrader.dto;
 
-import com.patrader.dto.Desecho.Desecho;
-
 import java.util.Date;
 import java.util.List;
 
@@ -10,6 +8,7 @@ public class Bulto {
     private Integer id;
     private String identificacion;
     private Integer consecutivo;
+    private Integer anio;
     private TipoDesecho tipoDesecho;
     private Date fechaEnvase;
     private Date fechaMedicion;
@@ -61,6 +60,14 @@ public class Bulto {
 
     public void setConsecutivo(Integer consecutivo) {
         this.consecutivo = consecutivo;
+    }
+
+    public Integer getAnio() {
+        return anio;
+    }
+
+    public void setAnio(Integer anio) {
+        this.anio = anio;
     }
 
     public TipoDesecho getTipoDesecho() {

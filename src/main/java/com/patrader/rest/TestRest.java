@@ -18,11 +18,5 @@ public class TestRest {
         return "Hello dude";
     }
 
-    @GET
-    @Path("/test")
-    @Produces(MediaType.APPLICATION_JSON)
-    public Usuario getUsuario(){
-
-    }
 
 }

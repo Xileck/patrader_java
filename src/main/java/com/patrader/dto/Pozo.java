@@ -1,7 +1,5 @@
 package com.patrader.dto;
 
-import com.patrader.dto.Desecho.Desecho;
-
 import java.util.List;
 
 public class Pozo {
