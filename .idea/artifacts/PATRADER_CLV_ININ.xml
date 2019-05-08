@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="PATRADER CLV-ININ">
-    <output-path>V:/webapps/cdr_rest</output-path>
+    <output-path>V:/webapps/patrader_rest/</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

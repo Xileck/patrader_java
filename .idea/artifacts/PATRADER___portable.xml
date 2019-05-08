@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="PATRADER - portable">
-    <output-path>C:/CDR/XAMPP/tomcat8/webapps/patrader/</output-path>
+    <output-path>C:/CDR/XAMPP/tomcat8/webapps/patrader_rest/</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

@@ -1,6 +1,4 @@
-package com.patrader.dto.Desecho;
-
-import com.patrader.dto.TipoEnvase;
+package com.patrader.dto;
 
 public class DesechoLiquido extends Desecho {
 

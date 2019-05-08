@@ -1,6 +1,5 @@
-package com.patrader.dto.Desecho;
+package com.patrader.dto;
 
-import com.patrader.dto.Marca;
 import java.util.Date;
 
 public class FuenteSellada extends Desecho {

@@ -1,4 +1,4 @@
-package com.patrader.dto.Desecho;
+package com.patrader.dto;
 
 import com.patrader.dto.MetodoMedicion;
 import com.patrader.dto.Radionuclido;

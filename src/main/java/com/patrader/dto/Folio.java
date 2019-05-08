@@ -1,7 +1,5 @@
 package com.patrader.dto;
 
-import com.patrader.dto.Desecho.Desecho;
-
 import java.util.Date;
 import java.util.List;
 
@@ -10,6 +8,7 @@ public class Folio {
     private Integer id;
     private String identificacion;
     private List<Desecho> desechos;
+    private Integer anio;
     private Empresa empresa;
     private String numeroLicencia;//CNSNS
     private Persona persEsr;
@@ -30,6 +29,14 @@ public class Folio {
 
     public void setDesechos(List<Desecho> desechos) {
         this.desechos = desechos;
+    }
+
+    public Integer getAnio() {
+        return anio;
+    }
+
+    public void setAnio(Integer anio) {
+        this.anio = anio;
     }
 
     public List<String> getListaObservaciones() {
