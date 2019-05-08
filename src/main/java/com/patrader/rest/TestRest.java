@@ -1,6 +1,7 @@
 package com.patrader.rest;
 
 import com.patrader.dto.Radionuclido;
+import com.patrader.dto.Usuario;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -16,4 +17,12 @@ public class TestRest {
         Radionuclido r = new Radionuclido();
         return "Hello dude";
     }
+
+    @GET
+    @Path("/test")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Usuario getUsuario(){
+
+    }
+
 }

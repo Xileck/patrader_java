@@ -9,19 +9,18 @@ import java.sql.Statement;
 public class ConexionMySQL {
 
     static private ConexionMySQL instance;
+    private String qry;
+    private String url = "jdbc:mysql://10.33.90.66:3307/";
+    private String dbName = "patrader";
+    private String userName = "patrader";
+    private String password = "clvinin";
+    private Connection connection = null;
 
     public static ConexionMySQL getInstance() {
         if (instance == null)
             instance = new ConexionMySQL();
         return instance;
     }
-
-    String qry;
-    String url = "jdbc:mysql://10.33.90.66:3307/";
-    String dbName = "patrader";
-    String userName = "patrader";
-    String password = "clvinin";
-    Connection connection = null;
 
     private ConexionMySQL() {
 
