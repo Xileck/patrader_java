@@ -1,12 +1,11 @@
 package com.patrader.dto.Desecho;
 
 import com.patrader.dto.Marca;
-
 import java.util.Date;
 
 public class FuenteSellada extends Desecho {
-    private Double peso;
 
+    private Double peso;
     private Date fechaFabricacion;
     private Marca marcaContenedor;
     private Marca marcaFuente;
@@ -17,7 +16,6 @@ public class FuenteSellada extends Desecho {
     public Double getPeso() {
         return peso;
     }
-
 
     public void setPeso(Double peso) {
         this.peso = peso;

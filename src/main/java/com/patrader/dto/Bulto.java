@@ -7,37 +7,37 @@ import java.util.List;
 
 public class Bulto {
 
-    Integer id;
-    String identificacion;
-    Integer consecutivo;
-    TipoDesecho tipoDesecho;
-    Date fechaEnvase;
-    Date fechaMedicion;
-    Double dosisContacto;
-    Double dosis1m;
-    String clasificacion;
-    Double actividadInicial;
-    Double actividadActual;
-    Double actividadEspecifica;
-    Double concentracion;
-    Double masa;
-    String observaciones;
-    Persona preparoBulto;
-    Date fechaPreparo;
-    Persona revisoBulto;
-    Date fechaReviso;
-    Double valorD;
-    Double valorA_D;
-    Integer categoria;
-    String vidaMedia;
-    TipoGestion tipoGestion;
-    boolean cumpleNom035;
-    Campania campania;
-    String tratamiento;
-    Almacen almacen;
+    private Integer id;
+    private String identificacion;
+    private Integer consecutivo;
+    private TipoDesecho tipoDesecho;
+    private Date fechaEnvase;
+    private Date fechaMedicion;
+    private Double dosisContacto;
+    private Double dosis1m;
+    private String clasificacion;
+    private Double actividadInicial;
+    private Double actividadActual;
+    private Double actividadEspecifica;
+    private Double concentracion;
+    private Double masa;
+    private String observaciones;
+    private Persona preparoBulto;
+    private Date fechaPreparo;
+    private Persona revisoBulto;
+    private Date fechaReviso;
+    private Double valorD;
+    private Double valorA_D;
+    private Integer categoria;
+    private String vidaMedia;
+    private TipoGestion tipoGestion;
+    private boolean cumpleNom035;
+    private Campania campania;
+    private String tratamiento;
+    private Almacen almacen;
 
-    List<Desecho> desechos;
-    List<Pozo> pozos;
+    private List<Desecho> desechos;
+    private List<Pozo> pozos;
 
     public Integer getId() {
         return id;
