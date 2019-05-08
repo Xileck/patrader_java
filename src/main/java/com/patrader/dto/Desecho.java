@@ -1,8 +1,5 @@
 package com.patrader.dto;
 
-import com.patrader.dto.MetodoMedicion;
-import com.patrader.dto.Radionuclido;
-import com.patrader.dto.TipoDesecho;
 
 import java.util.Date;
 

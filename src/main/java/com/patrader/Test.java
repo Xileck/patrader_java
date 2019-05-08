@@ -1,5 +1,6 @@
 package com.patrader;
 
+import com.patrader.dao.BitacoraErrorDAO;
 import com.patrader.dto.Desecho;
 import com.patrader.dto.DesechoSolido;
 import org.apache.logging.log4j.LogManager;
@@ -11,8 +12,8 @@ public class Test {
 
 
     public static void main(String[] args) {
-        DesechoSolido d = new DesechoSolido();
-        printPeso(d);
+
+        BitacoraErrorDAO.getInstance().insertarBitacoraError2("test","test2","test");
 
     }
 

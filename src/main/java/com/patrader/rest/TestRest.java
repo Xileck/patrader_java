@@ -17,8 +17,6 @@ public class TestRest {
     public String hello() {
         Radionuclido r = new Radionuclido();
 
-String qry = "SELECT * FROM tipos_desechos"
-        ConexionMySQL.getInstance().ejecutarUpdate(qry);
         return "Hello dude";
     }
 
