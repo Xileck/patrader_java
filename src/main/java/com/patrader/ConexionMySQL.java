@@ -1,5 +1,7 @@
 package com.patrader;
 
+import com.patrader.dao.BitacoraErrorDAO;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -23,22 +25,25 @@ public class ConexionMySQL {
     }
 
     private ConexionMySQL() {
-
-    }
-
-    public void connect() {
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            connection = DriverManager.getConnection(url + dbName, userName, password);
-        } catch (SQLException e) {
+        } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    public Connection connect() {
+        try {
+            if (connection == null || connection.isClosed())
+                connection = DriverManager.getConnection(url + dbName, userName, password);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return connection;
     }
 
     public Connection getConnection() {
@@ -49,10 +54,10 @@ public class ConexionMySQL {
         this.qry = qry;
     }
 
-    public ResultSet getSelect() throws Exception {
+    public ResultSet getSelect() {
         Statement stmt = null;
         try {
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
+
             connection = DriverManager.getConnection(url + dbName, userName, password);
             stmt = connection.createStatement();
             ResultSet result = stmt.executeQuery(qry);
@@ -64,10 +69,9 @@ public class ConexionMySQL {
         return null;
     }
 
-    public void ejecutarUpdate(String qry) throws Exception {
-        Statement stmt = null;
+    public void ejecutarUpdate(String qry) {
+        Statement stmt;
         try {
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
             connection = DriverManager.getConnection(url + dbName, userName, password);
             stmt = connection.createStatement();
             stmt.executeUpdate(qry);
@@ -75,7 +79,6 @@ public class ConexionMySQL {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
     }
 
     public void close() {

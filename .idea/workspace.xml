@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b50f6066-c4f6-4d86-8ca7-041107ed93bf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/638d05c0-6f21-4b2d-b2d0-92c9b615aa85.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/638d05c0-6f21-4b2d-b2d0-92c9b615aa85.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" afterPath="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patrader/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/patrader/Test.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java" afterPath="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java" afterPath="$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,46 +56,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Almacen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Almacen.java">
+      <file leaf-file-name="BitacoraErrorDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1557331164514" expanded="true" signature="429:457" ph="SELECT * FRO... tipos_desechos" />
+                <marker date="1557343893690" expanded="true" signature="612:692" ph="INSERT INTO bitacora_error... " />
+                <marker date="1557343893690" expanded="true" signature="612:694" ph="INSERT INTO bitacora_error... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PATRADER.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/typescript-generator/PATRADER.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+      <file leaf-file-name="bitacora_error" pinned="false" current-in-tab="true">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.bitacora_error">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/638d05c0-6f21-4b2d-b2d0-92c9b615aa85.SCHEMA:patrader" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/638d05c0-6f21-4b2d-b2d0-92c9b615aa85.SCHEMA:patrader">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>638d05c0-6f21-4b2d-b2d0-92c9b615aa85.SCHEMA:patrader</OriginalElement>
+              <nodes>
+                <node x="0.0" y="295.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.marcas_cont</node>
+                <node x="0.0" y="0.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.sepomex</node>
+                <node x="259.0" y="295.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.marcas_fuentes</node>
+                <node x="0.0" y="436.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.emisor_rad</node>
+                <node x="259.0" y="436.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.metodos_medicion</node>
+                <node x="0.0" y="577.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.tipos_desechos</node>
+                <node x="500.0" y="0.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.bitacora_error</node>
+                <node x="273.0" y="0.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.usuarios</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.9134199134199135" x="51.74881516587675" y="232.74881516587675" />
+              <SelectedNodes>
+                <node>638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.marcas_cont</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sepomex" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.sepomex">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tipos_desechos" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.tipos_desechos">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuarios" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.usuarios">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metodos_medicion" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.metodos_medicion">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marcas_fuentes" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.marcas_fuentes">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marcas_cont" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.marcas_cont">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emisor_rad" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.emisor_rad">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -101,8 +177,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Singleton" />
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -161,14 +237,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/HicBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dao/HicDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/ReportesLoteBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/REST/FactoresREST.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/REST/LoteREST.java" />
         <option value="$PROJECT_DIR$/src/main/java/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/log4j2-test.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/ListasExcelBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dto/Anexos/Anexo10B.java" />
@@ -195,13 +269,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/TipoEnvase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/DesechoLiquido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/DesechoSolido.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/PozoBulto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Pozo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Empresa.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho/FuenteSellada.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patrader/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho/DesechoLiquido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/FuenteSellada.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Campania.java" />
@@ -209,9 +280,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/MetodoMedicion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Bulto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Folio.java" />
-        <option value="$PROJECT_DIR$/target/typescript-generator/PATRADER.ts" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Almacen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrader/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO.java" />
+        <option value="$PROJECT_DIR$/target/typescript-generator/PATRADER.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java" />
       </list>
     </option>
   </component>
@@ -251,6 +327,12 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="PATRADER" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="PATRADER" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="typescript-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -345,63 +427,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patrader" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patrader" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="patrader" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="typescript-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,7 +463,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18550107" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -785,12 +834,12 @@
       <workItem from="1557187535789" duration="688000" />
       <workItem from="1557262289949" duration="2633000" />
       <workItem from="1557267800105" duration="1142000" />
-      <workItem from="1557322692907" duration="7318000" />
+      <workItem from="1557322692907" duration="17519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="707921000" />
+    <option name="totallyTimeSpent" value="718122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,25 +855,25 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17826086" sideWeight="0.6663113" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25543478" sideWeight="0.5053305" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21268657" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21268657" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27292112" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27292112" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.102878466" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38586956" sideWeight="0.62366736" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38586956" sideWeight="0.62100214" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17826086" sideWeight="0.3336887" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17826086" sideWeight="0.32569295" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2804348" sideWeight="0.50319827" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25543478" sideWeight="0.4946695" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21108742" sideWeight="0.48915988" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11567164" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -908,7 +957,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="454" />
+      <option name="time" value="455" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -917,22 +966,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/REST/LoteREST.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/LoteBO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dto/Anexos/Anexo10.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dto/Anexos/Anexo10B.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/AnexosLoteBO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/Anexo13BO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/Anexo10ABO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/Anexo10bBO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/Anexo11BO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dao/AnexosDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/Anexo10BO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/Anexo12BO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dto/Anexos/AnexosLote.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/dto/Anexos/AnexosHic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/AnexosHicBO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/ReportesLoteBO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cfemex/lv/is/apps/SGD/bo/AnexosBO/ReportesHicBO.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1033,31 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#291#292#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#353#354#0" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#513#514#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#629#630#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#709#710#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Pozo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1149,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/patrader/dto/Usuario.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1169,38 +1169,6 @@
             <marker date="1557327811830" expanded="false" signature="347:358" ph=" { " />
             <marker date="1557327811830" expanded="false" signature="383:389" ph=" }" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/FuenteSellada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="36" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/DesechoLiquido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,23 +1204,15 @@
         <state relative-caret-position="162">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="false" />
+            <element signature="e#164#165#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,14 +1223,6 @@
           <folding>
             <element signature="e#0#6461#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/DesechoSolido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,14 +1239,6 @@
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Bulto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="64" column="28" lean-forward="false" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,41 +1264,265 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/typescript-generator/PATRADER.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Almacen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="false" />
+            <element signature="e#176#177#0" expanded="false" />
+            <element signature="e#223#224#0" expanded="false" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#306#307#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#455#456#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGD.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1557331164514" expanded="true" signature="429:457" ph="SELECT * FRO... tipos_desechos" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="478" column="12" lean-forward="false" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="44" column="61" lean-forward="true" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/typescript-generator/PATRADER.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/DesechoLiquido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/DesechoSolido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/FuenteSellada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Bulto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1557343893690" expanded="true" signature="612:692" ph="INSERT INTO bitacora_error... " />
+            <marker date="1557343893690" expanded="true" signature="612:694" ph="INSERT INTO bitacora_error... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/638d05c0-6f21-4b2d-b2d0-92c9b615aa85.SCHEMA:patrader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>638d05c0-6f21-4b2d-b2d0-92c9b615aa85.SCHEMA:patrader</OriginalElement>
+          <nodes>
+            <node x="0.0" y="295.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.marcas_cont</node>
+            <node x="0.0" y="0.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.sepomex</node>
+            <node x="259.0" y="295.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.marcas_fuentes</node>
+            <node x="0.0" y="436.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.emisor_rad</node>
+            <node x="259.0" y="436.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.metodos_medicion</node>
+            <node x="0.0" y="577.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.tipos_desechos</node>
+            <node x="500.0" y="0.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.bitacora_error</node>
+            <node x="273.0" y="0.0">638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.usuarios</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9134199134199135" x="51.74881516587675" y="232.74881516587675" />
+          <SelectedNodes>
+            <node>638d05c0-6f21-4b2d-b2d0-92c9b615aa85.TABLE:patrader.marcas_cont</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.marcas_fuentes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.marcas_cont">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.emisor_rad">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.tipos_desechos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.usuarios">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.sepomex">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.metodos_medicion">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b4645d4/638d05c0-6f21-4b2d-b2d0-92c9b615aa85/patrader.bitacora_error">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1369,6 +1537,7 @@
             <option name="proportions">
               <list>
                 <option value="0.18550107" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
