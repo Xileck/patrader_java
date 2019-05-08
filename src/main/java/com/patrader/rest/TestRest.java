@@ -1,5 +1,6 @@
 package com.patrader.rest;
 
+import com.patrader.ConexionMySQL;
 import com.patrader.dto.Radionuclido;
 import com.patrader.dto.Usuario;
 
@@ -15,6 +16,9 @@ public class TestRest {
     @Produces(MediaType.APPLICATION_JSON)
     public String hello() {
         Radionuclido r = new Radionuclido();
+
+String qry = "SELECT * FROM tipos_desechos"
+        ConexionMySQL.getInstance().ejecutarUpdate(qry);
         return "Hello dude";
     }
 
