@@ -13,7 +13,8 @@ public class Test {
 
     public static void main(String[] args) {
 
-        BitacoraErrorDAO.getInstance().insertarBitacoraError2("test","test2","test");
+        //BitacoraErrorDAO.getInstance().insertarBitacoraError2("test","test2","test");
+        BitacoraErrorDAO.getInstance().insertBitacoraError("","","");
 
     }
 
