@@ -8,37 +8,30 @@
           <element id="module-output" name="SGD" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.itextpdf:barcodes:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:font-asian:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:forms:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:hyph:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:io:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:kernel:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:layout:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:pdfa:7.0.4" />
-          <element id="library" level="project" name="Maven: com.itextpdf:sign:7.0.4" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.13" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.13" />
-          <element id="library" level="project" name="Maven: com.auth0:java-jwt:3.2.0" />
-          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
-          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.55" />
-          <element id="library" level="project" name="lib" />
-          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
-          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.8-beta4" />
-          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.8-beta4" />
-          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.8-beta4" />
-          <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
-          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
-          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.8" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.20" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.4.0-b27" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.8" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.8" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.0" />
-          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.11.0" />
-          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.11.2" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.47" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.4.0-b27" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.4.0-b27" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-api:2.4.0-b27" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-utils:2.4.0-b27" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.20" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.20" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.20" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-common:2.20" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-server:2.20" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-jaxb:2.20" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
         </element>
       </element>
     </root>
