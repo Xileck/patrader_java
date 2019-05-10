@@ -67,16 +67,16 @@ public class ConexionMySQL {
         return null;
     }
 
-    public void ejecutarUpdate(String qry) {
+    public int ejecutarUpdate(String qry) {
         Statement stmt;
         try {
             connection = DriverManager.getConnection(url + dbName, userName, password);
             stmt = connection.createStatement();
-            stmt.executeUpdate(qry);
+            return stmt.executeUpdate(qry);
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        return -1;
     }
 
     public void close() {
