@@ -8,8 +8,47 @@
   <component name="ChangeListManager">
     <list default="true" id="b50f6066-c4f6-4d86-8ca7-041107ed93bf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java" afterPath="$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java" />
+      <change beforePath="$PROJECT_DIR$/lib/asm-all-repackaged-2.2.0-b14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/cfgatewayadapter.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/cglib-2.2.0-b14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-beanutils-1.8.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-codec-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-collections-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-digester-2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-fileupload-1.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-httpclient-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-javaflow-20060411.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-logging.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/flex-messaging-common.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/flex-messaging-core.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/flex-messaging-opt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/flex-messaging-proxy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/flex-messaging-remoting.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/flex-rds-server.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/guava-14.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/hk2-api-2.2.0-b14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/hk2-locator-2.2.0-b14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/hk2-utils-2.2.0-b14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/iText-2.1.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.inject-2.2.0-b14.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ws.rs-api-2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb-api-2.2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jersey-client.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jersey-common.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jersey-container-servlet-core.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jersey-container-servlet.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jersey-server.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.34-bin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/org.osgi.core-4.2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/osgi-resource-locator-1.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/persistence-api-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/png-encoder-1.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/servlet-api.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" afterPath="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,20 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dto/Usuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EmpresaDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dao/EmpresaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-118">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1557343893690" expanded="true" signature="612:692" ph="INSERT INTO bitacora_error... " />
@@ -112,8 +137,8 @@
       <file leaf-file-name="TestRest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +146,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -133,11 +171,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SGD.iml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConexionMySQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SGD.iml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SGD.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="522">
+              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -252,7 +302,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Folio.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Almacen.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO.java" />
         <option value="$PROJECT_DIR$/target/typescript-generator/PATRADER.ts" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/dto/Desecho.java" />
@@ -262,6 +311,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/Test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java" />
       </list>
     </option>
   </component>
@@ -364,54 +414,6 @@
             <path>
               <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patrader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patrader" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patrader_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patrader" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patrader_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -803,12 +805,12 @@
       <workItem from="1557410761081" duration="2167000" />
       <workItem from="1557443253794" duration="1474000" />
       <workItem from="1557506797059" duration="3383000" />
-      <workItem from="1557515136014" duration="4114000" />
+      <workItem from="1557515136014" duration="4727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="733618000" />
+    <option name="totallyTimeSpent" value="734231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,7 +823,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25520262" sideWeight="0.510119" order="13" side_tool="true" content_ui="tabs" />
@@ -843,7 +844,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25434783" sideWeight="0.48988095" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2153518" sideWeight="0.48915988" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2153518" sideWeight="0.48915988" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11567164" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.195629" sideWeight="0.5108401" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1117,24 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1177,29 +1160,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SGD.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,7 +1179,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/dao/BitacoraErrorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-118">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1557343893690" expanded="true" signature="612:692" ph="INSERT INTO bitacora_error... " />
@@ -1229,6 +1194,45 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/ConexionMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/patrader/rest/TestRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGD.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

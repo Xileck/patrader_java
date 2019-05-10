@@ -1,7 +1,5 @@
 package com.patrader;
 
-import com.patrader.dao.BitacoraErrorDAO;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
