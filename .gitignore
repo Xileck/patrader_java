@@ -1,2 +1,7 @@
 *.class
 src/main/java/com/patrader/rest/TestRest.java
+.idea
+.settings
+*.iml
+target/
+.vscode
