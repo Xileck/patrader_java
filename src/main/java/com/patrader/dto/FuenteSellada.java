@@ -1,11 +1,11 @@
 package com.patrader.dto;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class FuenteSellada extends Desecho {
 
     private Double peso;
-    private Date fechaFabricacion;
+    private LocalDate fechaFabricacion;
     private Marca marcaContenedor;
     private Marca marcaFuente;
     private Integer numeroSerieCont;
@@ -20,11 +20,11 @@ public class FuenteSellada extends Desecho {
         this.peso = peso;
     }
 
-    public Date getFechaFabricacion() {
+    public LocalDate getFechaFabricacion() {
         return fechaFabricacion;
     }
 
-    public void setFechaFabricacion(Date fechaFabricacion) {
+    public void setFechaFabricacion(LocalDate fechaFabricacion) {
         this.fechaFabricacion = fechaFabricacion;
     }
 

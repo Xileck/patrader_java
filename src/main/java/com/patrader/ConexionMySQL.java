@@ -52,31 +52,23 @@ public class ConexionMySQL {
         this.qry = qry;
     }
 
-    public ResultSet getSelect() {
+    public ResultSet getSelect() throws SQLException {
         Statement stmt = null;
-        try {
+        connection = DriverManager.getConnection(url + dbName, userName, password);
+        stmt = connection.createStatement();
+        ResultSet result = stmt.executeQuery(qry);
+        return result;
 
-            connection = DriverManager.getConnection(url + dbName, userName, password);
-            stmt = connection.createStatement();
-            ResultSet result = stmt.executeQuery(qry);
-            return result;
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return null;
     }
 
-    public void ejecutarUpdate(String qry) {
+    public Integer ejecutarUpdate(String qry) throws SQLException {
         Statement stmt;
-        try {
-            connection = DriverManager.getConnection(url + dbName, userName, password);
-            stmt = connection.createStatement();
-            stmt.executeUpdate(qry);
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+
+        connection = DriverManager.getConnection(url + dbName, userName, password);
+        stmt = connection.createStatement();
+
+        int result = stmt.executeUpdate(qry);
+        return stmt.executeUpdate(qry);
     }
 
     public void close() {

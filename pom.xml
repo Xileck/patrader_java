@@ -35,6 +35,7 @@
                         <class>com.patrader.dto.Almacen</class>
                         <class>com.patrader.dto.Bulto</class>
                         <class>com.patrader.dto.Campania</class>
+                        <class>com.patrader.dto.CodigoPostal</class>
                         <class>com.patrader.dto.Desecho</class>
                         <class>com.patrader.dto.DesechoLiquido</class>
                         <class>com.patrader.dto.DesechoSolido</class>
@@ -55,6 +56,14 @@
                     <outputKind>module</outputKind>
                     <outputFileType>implementationFile</outputFileType>
                     <mapClasses>asClasses</mapClasses>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>

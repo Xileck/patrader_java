@@ -1,6 +1,6 @@
 package com.patrader.dto;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 public class Folio {
@@ -14,38 +14,15 @@ public class Folio {
     private Persona persEsr;
     private boolean reutilizarAutorizado;
     private Almacen recepcion;
-    private Date fechaRecepcion;
+    private LocalDate fechaRecepcion;
     private Persona persEntrego;
     private Persona persRecibio;
     private Persona persReviso;
-    private Date fechaReviso;
+    private LocalDate fechaReviso;
     private TipoDesecho tipoDesecho;
     private TipoEmisor emisor; // solo puede tener radionuclidos de un solo tipo de emisor alfa gamma o beta
     private List<String> listaObservaciones;
 
-    public List<Desecho> getDesechos() {
-        return desechos;
-    }
-
-    public void setDesechos(List<Desecho> desechos) {
-        this.desechos = desechos;
-    }
-
-    public Integer getAnio() {
-        return anio;
-    }
-
-    public void setAnio(Integer anio) {
-        this.anio = anio;
-    }
-
-    public List<String> getListaObservaciones() {
-        return listaObservaciones;
-    }
-
-    public void setListaObservaciones(List<String> listaObservaciones) {
-        this.listaObservaciones = listaObservaciones;
-    }
 
     public Integer getId() {
         return id;
@@ -61,6 +38,22 @@ public class Folio {
 
     public void setIdentificacion(String identificacion) {
         this.identificacion = identificacion;
+    }
+
+    public List<Desecho> getDesechos() {
+        return desechos;
+    }
+
+    public void setDesechos(List<Desecho> desechos) {
+        this.desechos = desechos;
+    }
+
+    public Integer getAnio() {
+        return anio;
+    }
+
+    public void setAnio(Integer anio) {
+        this.anio = anio;
     }
 
     public Empresa getEmpresa() {
@@ -103,11 +96,11 @@ public class Folio {
         this.recepcion = recepcion;
     }
 
-    public Date getFechaRecepcion() {
+    public LocalDate getFechaRecepcion() {
         return fechaRecepcion;
     }
 
-    public void setFechaRecepcion(Date fechaRecepcion) {
+    public void setFechaRecepcion(LocalDate fechaRecepcion) {
         this.fechaRecepcion = fechaRecepcion;
     }
 
@@ -135,11 +128,11 @@ public class Folio {
         this.persReviso = persReviso;
     }
 
-    public Date getFechaReviso() {
+    public LocalDate getFechaReviso() {
         return fechaReviso;
     }
 
-    public void setFechaReviso(Date fechaReviso) {
+    public void setFechaReviso(LocalDate fechaReviso) {
         this.fechaReviso = fechaReviso;
     }
 
@@ -157,5 +150,13 @@ public class Folio {
 
     public void setEmisor(TipoEmisor emisor) {
         this.emisor = emisor;
+    }
+
+    public List<String> getListaObservaciones() {
+        return listaObservaciones;
+    }
+
+    public void setListaObservaciones(List<String> listaObservaciones) {
+        this.listaObservaciones = listaObservaciones;
     }
 }

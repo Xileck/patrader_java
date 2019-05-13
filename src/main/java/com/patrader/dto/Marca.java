@@ -1,11 +1,11 @@
 package com.patrader.dto;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Marca {
     private Integer id;
     private String identificacion;
-    private Date fechaCreacion;
+    private LocalDate fechaCreacion;
 
     public Integer getId() {
         return id;
@@ -23,11 +23,11 @@ public class Marca {
         this.identificacion = identificacion;
     }
 
-    public Date getFechaCreacion() {
+    public LocalDate getFechaCreacion() {
         return fechaCreacion;
     }
 
-    public void setFechaCreacion(Date fechaCreacion) {
+    public void setFechaCreacion(LocalDate fechaCreacion) {
         this.fechaCreacion = fechaCreacion;
     }
 }

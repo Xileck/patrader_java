@@ -1,17 +1,16 @@
 package com.patrader.dto;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Empresa {
     private Integer id;
     private String nombre;
     private String telefono;
     private String calle;
-    private String num_calle;
-    private Integer codigo_postal;
-    private String colonia; // colonia, fraccionamiento
+    private String numCalle;
+    private CodigoPostal codigoPostal;
     private Persona representante;
-    private Date fechaCreacion;
+    private LocalDate fechaCreacion;
 
     public Integer getId() {
         return id;
@@ -45,28 +44,20 @@ public class Empresa {
         this.calle = calle;
     }
 
-    public String getNum_calle() {
-        return num_calle;
+    public String getNumCalle() {
+        return numCalle;
     }
 
-    public void setNum_calle(String num_calle) {
-        this.num_calle = num_calle;
+    public void setNumCalle(String numCalle) {
+        this.numCalle = numCalle;
     }
 
-    public Integer getCodigo_postal() {
-        return codigo_postal;
+    public CodigoPostal getCodigoPostal() {
+        return codigoPostal;
     }
 
-    public void setCodigo_postal(Integer codigo_postal) {
-        this.codigo_postal = codigo_postal;
-    }
-
-    public String getColonia() {
-        return colonia;
-    }
-
-    public void setColonia(String colonia) {
-        this.colonia = colonia;
+    public void setCodigoPostal(CodigoPostal codigoPostal) {
+        this.codigoPostal = codigoPostal;
     }
 
     public Persona getRepresentante() {
@@ -77,11 +68,12 @@ public class Empresa {
         this.representante = representante;
     }
 
-    public Date getFechaCreacion() {
+
+    public LocalDate getFechaCreacion() {
         return fechaCreacion;
     }
 
-    public void setFechaCreacion(Date fechaCreacion) {
+    public void setFechaCreacion(LocalDate fechaCreacion) {
         this.fechaCreacion = fechaCreacion;
     }
 }

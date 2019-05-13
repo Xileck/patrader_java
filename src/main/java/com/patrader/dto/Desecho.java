@@ -1,7 +1,7 @@
 package com.patrader.dto;
 
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Desecho {
 
@@ -18,9 +18,10 @@ public class Desecho {
     private Double dosis1m;
     private MetodoMedicion metodoMedicion;
     private String numeroAutorizacionCNSNS;
-    private Date fechaCalibracion;
-    private Date fechaEntrada;
-    private Date fechaSalida;
+    private LocalDate fechaCalibracion;
+    private LocalDate fechaEntrada;
+    private LocalDate fechaSalida;
+
 
     public Integer getId() {
         return id;
@@ -126,27 +127,27 @@ public class Desecho {
         this.numeroAutorizacionCNSNS = numeroAutorizacionCNSNS;
     }
 
-    public Date getFechaCalibracion() {
+    public LocalDate getFechaCalibracion() {
         return fechaCalibracion;
     }
 
-    public void setFechaCalibracion(Date fechaCalibracion) {
+    public void setFechaCalibracion(LocalDate fechaCalibracion) {
         this.fechaCalibracion = fechaCalibracion;
     }
 
-    public Date getFechaEntrada() {
+    public LocalDate getFechaEntrada() {
         return fechaEntrada;
     }
 
-    public void setFechaEntrada(Date fechaEntrada) {
+    public void setFechaEntrada(LocalDate fechaEntrada) {
         this.fechaEntrada = fechaEntrada;
     }
 
-    public Date getFechaSalida() {
+    public LocalDate getFechaSalida() {
         return fechaSalida;
     }
 
-    public void setFechaSalida(Date fechaSalida) {
+    public void setFechaSalida(LocalDate fechaSalida) {
         this.fechaSalida = fechaSalida;
     }
 }

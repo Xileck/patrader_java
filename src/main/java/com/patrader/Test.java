@@ -1,6 +1,7 @@
 package com.patrader;
 
 import com.patrader.dao.BitacoraErrorDAO;
+import com.patrader.dao.EmpresaDAO;
 import com.patrader.dto.Desecho;
 
 public class Test {
@@ -8,7 +9,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        BitacoraErrorDAO.getInstance().insertBitacoraError("","","");
+        EmpresaDAO.getInstance().select(1);
 
     }
 

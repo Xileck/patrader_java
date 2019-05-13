@@ -1,6 +1,6 @@
 package com.patrader.dto;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 public class Bulto {
@@ -10,8 +10,8 @@ public class Bulto {
     private Integer consecutivo;
     private Integer anio;
     private TipoDesecho tipoDesecho;
-    private Date fechaEnvase;
-    private Date fechaMedicion;
+    private LocalDate fechaEnvase;
+    private LocalDate fechaMedicion;
     private Double dosisContacto;
     private Double dosis1m;
     private String clasificacion;
@@ -22,9 +22,9 @@ public class Bulto {
     private Double masa;
     private String observaciones;
     private Persona preparoBulto;
-    private Date fechaPreparo;
+    private LocalDate fechaPreparo;
     private Persona revisoBulto;
-    private Date fechaReviso;
+    private LocalDate fechaReviso;
     private Double valorD;
     private Double valorA_D;
     private Integer categoria;
@@ -37,6 +37,7 @@ public class Bulto {
 
     private List<Desecho> desechos;
     private List<Pozo> pozos;
+
 
     public Integer getId() {
         return id;
@@ -78,19 +79,19 @@ public class Bulto {
         this.tipoDesecho = tipoDesecho;
     }
 
-    public Date getFechaEnvase() {
+    public LocalDate getFechaEnvase() {
         return fechaEnvase;
     }
 
-    public void setFechaEnvase(Date fechaEnvase) {
+    public void setFechaEnvase(LocalDate fechaEnvase) {
         this.fechaEnvase = fechaEnvase;
     }
 
-    public Date getFechaMedicion() {
+    public LocalDate getFechaMedicion() {
         return fechaMedicion;
     }
 
-    public void setFechaMedicion(Date fechaMedicion) {
+    public void setFechaMedicion(LocalDate fechaMedicion) {
         this.fechaMedicion = fechaMedicion;
     }
 
@@ -174,11 +175,11 @@ public class Bulto {
         this.preparoBulto = preparoBulto;
     }
 
-    public Date getFechaPreparo() {
+    public LocalDate getFechaPreparo() {
         return fechaPreparo;
     }
 
-    public void setFechaPreparo(Date fechaPreparo) {
+    public void setFechaPreparo(LocalDate fechaPreparo) {
         this.fechaPreparo = fechaPreparo;
     }
 
@@ -190,11 +191,11 @@ public class Bulto {
         this.revisoBulto = revisoBulto;
     }
 
-    public Date getFechaReviso() {
+    public LocalDate getFechaReviso() {
         return fechaReviso;
     }
 
-    public void setFechaReviso(Date fechaReviso) {
+    public void setFechaReviso(LocalDate fechaReviso) {
         this.fechaReviso = fechaReviso;
     }
 
