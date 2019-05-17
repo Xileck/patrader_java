@@ -91,7 +91,6 @@ public class PersonaDAO {
 
             result = preparedStmt.executeUpdate();
 
-            Persona p = new Persona();
             if (result > 0)
                 return Response.ok().build();
             else

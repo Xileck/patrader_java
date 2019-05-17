@@ -67,7 +67,6 @@ public class ConexionMySQL {
         connection = DriverManager.getConnection(url + dbName, userName, password);
         stmt = connection.createStatement();
 
-        int result = stmt.executeUpdate(qry);
         return stmt.executeUpdate(qry);
     }
 

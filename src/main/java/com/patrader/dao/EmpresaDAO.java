@@ -142,21 +142,21 @@ public class EmpresaDAO {
         try {
             conexion.connect();
 
-            PreparedStatement preparedStmt = conexion.getConnection().prepareStatement(qry);
-
-            preparedStmt.execute();
             int result = conexion.ejecutarUpdate(qry);
 
-            if (result == 1)
-                return Response.status(200).entity("Empresa eliminada con exito!").build();
+            if (result > 0)
+                return Response.ok().build();
+            else
+                return Response.status(410).entity("El id de la empresa no existe.").build();
 
         } catch (Exception ex) {
             BitacoraErrorDAO.getInstance().insertBitacoraError("SQL", ex.getMessage(), qry);
             ex.printStackTrace();
+            return Response.status(400).entity("400 Bad Request").build();
         } finally {
             conexion.close();
         }
-        return Response.status(400).entity("400 Bad Request").build();
+
     }
 
     public Response update(Empresa empresa) {
