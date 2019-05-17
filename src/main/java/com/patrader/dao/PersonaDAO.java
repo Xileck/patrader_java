@@ -38,9 +38,11 @@ public class PersonaDAO {
                 lista.add(pers);
 
             }
+
             return lista;
         } catch (Exception ex) {
-            ex.printStackTrace();
+            pers=null;
+            BitacoraErrorDAO.getInstance().insertBitacoraError("SQL", ex.getMessage(), qry);
         } finally {
             conexion.close();
         }
@@ -75,4 +77,33 @@ public class PersonaDAO {
         }
         return Response.status(400).entity("Syntaxis invalida").build();
     }
+
+
+    public Response delete(int id) {
+
+        String qry = "DELETE FROM personas where ID="+id;
+        ConexionMySQL conexion = ConexionMySQL.getInstance();
+        int result = -1;
+
+        try {
+            conexion.connect();
+            PreparedStatement preparedStmt = conexion.getConnection().prepareStatement(qry);
+
+            result = preparedStmt.executeUpdate();
+
+            Persona p = new Persona();
+            if (result > 0)
+                return Response.ok().build();
+            else
+                return Response.status(400).entity("No existe el ID en la BD").build();
+
+        } catch (Exception ex) {
+            BitacoraErrorDAO.getInstance().insertBitacoraError("SQL", ex.getMessage(), qry);
+            ex.printStackTrace();
+        } finally {
+            conexion.close();
+        }
+        return Response.status(400).entity("Syntaxis invalida").build();
+    }
+
 }
