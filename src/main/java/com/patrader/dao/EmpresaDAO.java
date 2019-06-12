@@ -161,30 +161,28 @@ public class EmpresaDAO {
 
     public Response update(Empresa empresa) {
 
-        String qry = "UPDATE empresas SET NOMBRE = ?, TELEFONO = ?, CALLE = ?, NUM_CALLE = ?, ID_SEPOMEX = ? , ID_REPRESENTANTE = ?, FECHA_CREACION = ?" +
-                "     WHERE ID = " + empresa.getId() + ";";
+        String qry = "UPDATE empresas SET NOMBRE = ?, TELEFONO = ?, CALLE = ?, NUM_CALLE = ?, ID_SEPOMEX = ? , ID_REPRESENTANTE = ?, FECHA_CREACION =  NOW() " +
+                " WHERE ID = " + empresa.getId() + ";";
         ConexionMySQL conexion = ConexionMySQL.getInstance();
-
+        PreparedStatement preparedStmt=null ;
         try {
             conexion.connect();
 
-            PreparedStatement preparedStmt = conexion.getConnection().prepareStatement(qry);
+             preparedStmt = conexion.getConnection().prepareStatement(qry);
             preparedStmt.setString(1, empresa.getNombre());
             preparedStmt.setString(2, empresa.getTelefono());
             preparedStmt.setString(3, empresa.getCalle());
             preparedStmt.setString(4, empresa.getNumCalle());
             preparedStmt.setInt(5, empresa.getCodigoPostal().getId());
             preparedStmt.setInt(6, empresa.getRepresentante().getId());
-            preparedStmt.setDate(7, Date.valueOf(empresa.getFechaCreacion()));
 
-            preparedStmt.execute();
-            int result = conexion.ejecutarUpdate(qry);
+            boolean result = preparedStmt.execute();
 
-            if (result == 1)
+            if (!result)
                 return Response.ok().entity(empresa).build();
 
         } catch (Exception ex) {
-            BitacoraErrorDAO.getInstance().insertBitacoraError("SQL", ex.getMessage(), qry);
+            BitacoraErrorDAO.getInstance().insertBitacoraError("SQL", ex.getMessage(), preparedStmt != null ? preparedStmt.toString() : qry);
             ex.printStackTrace();
         } finally {
             conexion.close();
