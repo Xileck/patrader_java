@@ -4,11 +4,13 @@ import com.patrader.ConexionMySQL;
 import com.patrader.dto.CodigoPostal;
 import com.patrader.dto.Empresa;
 import com.patrader.dto.Persona;
+import com.patrader.dto.Usuario;
 
 import javax.ws.rs.core.Response;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Types;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,15 +26,13 @@ public class EmpresaDAO {
     }
 
     public List<Empresa> select() {
-        String qry = "SELECT e.ID, e.NOMBRE, e.TELEFONO, e.CALLE, e.NUM_CALLE, e.FECHA_CREACION, " +
-                "s.id, s.cp, s.estado, s.ciudad, " +
+        String qry = "SELECT e.ID, e.NOMBRE, e.TELEFONO, e.CODIGO_POSTAL,e.ESTADO, e.CIUDAD, e.CALLE, e.NUM_CALLE, e.FECHA_CREACION, e.ID_CREACION, " +
                 "p.ID, p.NOMBRE, p.AP_PAT, p.AP_MAT " +
                 "FROM empresas e " +
-                "LEFT JOIN personas p ON e.ID_REPRESENTANTE = p.id " +
-                "LEFT JOIN sepomex s ON e.ID_SEPOMEX = s.id ";
+                "LEFT JOIN personas p ON e.ID_REPRESENTANTE = p.id ;";
 
         ConexionMySQL conexion = ConexionMySQL.getInstance();
-        List<Empresa> empresas = null;
+        List<Empresa> empresas;
 
         ResultSet rs;
         try {
@@ -44,26 +44,31 @@ public class EmpresaDAO {
                 empresa.setId(rs.getInt("e.id"));
                 empresa.setNombre(rs.getString("e.NOMBRE"));
                 empresa.setTelefono(rs.getString("e.TELEFONO"));
+                empresa.setCodigoPostal(rs.getInt("e.CODIGO_POSTAL"));
+                empresa.setEstado(rs.getString("e.ESTADO"));
+                empresa.setCiudad(rs.getString("e.CIUDAD"));
                 empresa.setCalle(rs.getString("e.CALLE"));
                 empresa.setNumCalle(rs.getString("e.NUM_CALLE"));
                 empresa.setFechaCreacion(rs.getObject("e.FECHA_CREACION", LocalDate.class));
 
-                CodigoPostal cp = new CodigoPostal();
-                cp.setId(rs.getInt("s.id"));
-                cp.setCodigoPostal(rs.getInt("s.cp"));
-                cp.setEstado(rs.getString("s.estado"));
-                cp.setCiudad(rs.getString("s.ciudad"));
-                empresa.setCodigoPostal(cp);
+                Integer idCreacion = rs.getInt("e.ID_CREACION");
+                if (idCreacion != null) {
+                    empresa.setUsuarioCreador(new Usuario());
+                    empresa.getUsuarioCreador().setId(idCreacion);
 
+                    //TODO: Llenar campos restantes de usuario
+                }
 
-                Persona p = new Persona();
-                p.setId(rs.getInt("p.ID"));
-                p.setNombre(rs.getString("p.NOMBRE"));
-                p.setApellidoPaterno(rs.getString("p.AP_PAT"));
-                p.setApellidoMaterno(rs.getString("p.AP_MAT"));
+                Integer idRepresentante = rs.getInt("p.ID");
 
-
-                empresa.setRepresentante(p);
+                if (idRepresentante != null) {
+                    Persona p = new Persona();
+                    p.setId(rs.getInt("p.ID"));
+                    p.setNombre(rs.getString("p.NOMBRE"));
+                    p.setApellidoPaterno(rs.getString("p.AP_PAT"));
+                    p.setApellidoMaterno(rs.getString("p.AP_MAT"));
+                    empresa.setRepresentante(p);
+                }
 
                 empresas.add(empresa);
             }
@@ -82,13 +87,11 @@ public class EmpresaDAO {
 
     public Empresa select(Integer id) {
 
-        String qry = "SELECT e.ID, e.NOMBRE, e.TELEFONO, e.CALLE, e.NUM_CALLE, e.FECHA_CREACION, " +
-                "s.id, s.cp, s.estado, s.ciudad, " +
-                "p.ID, p.NOMBRE, p.AP_PAT, p.AP_MAT " +
-                "FROM empresas e " +
-                "LEFT JOIN personas p ON e.ID_REPRESENTANTE = p.id " +
-                "LEFT JOIN sepomex s ON e.ID_SEPOMEX = s.id " +
-                "WHERE e.id = " + id;
+        String qry = "SELECT e.ID, e.NOMBRE, e.TELEFONO, e.CODIGO_POSTAL ,e.ESTADO, e.CIUDAD, e.CALLE, e.NUM_CALLE, e.FECHA_CREACION, e.ID_CREACION " +
+                " p.ID, p.NOMBRE, p.AP_PAT, p.AP_MAT " +
+                " FROM empresas e " +
+                " LEFT JOIN personas p ON e.ID_REPRESENTANTE = p.id " +
+                " WHERE e.id = " + id;
 
         ConexionMySQL conexion = ConexionMySQL.getInstance();
         Empresa empresa = null;
@@ -103,16 +106,20 @@ public class EmpresaDAO {
                 empresa.setId(rs.getInt("e.id"));
                 empresa.setNombre(rs.getString("e.NOMBRE"));
                 empresa.setTelefono(rs.getString("e.TELEFONO"));
+                empresa.setCodigoPostal(rs.getInt("e.CODIGO_POSTAL"));
+                empresa.setEstado(rs.getString("e.ESTADO"));
+                empresa.setCiudad(rs.getString("e.CIUDAD"));
                 empresa.setCalle(rs.getString("e.CALLE"));
                 empresa.setNumCalle(rs.getString("e.NUM_CALLE"));
                 empresa.setFechaCreacion(rs.getObject("e.FECHA_CREACION", LocalDate.class));
 
-                CodigoPostal cp = new CodigoPostal();
-                cp.setId(rs.getInt("s.id"));
-                cp.setCodigoPostal(rs.getInt("s.cp"));
-                cp.setEstado(rs.getString("s.estado"));
-                cp.setCiudad(rs.getString("s.ciudad"));
-                empresa.setCodigoPostal(cp);
+                Integer idCreacion = rs.getInt("e.ID_CREACION");
+                if (idCreacion != null) {
+                    empresa.setUsuarioCreador(new Usuario());
+                    empresa.getUsuarioCreador().setId(idCreacion);
+
+                    //TODO: Llenar campos restantes de usuario
+                }
 
 
                 Persona p = new Persona();
@@ -161,20 +168,23 @@ public class EmpresaDAO {
 
     public Response update(Empresa empresa) {
 
-        String qry = "UPDATE empresas SET NOMBRE = ?, TELEFONO = ?, CALLE = ?, NUM_CALLE = ?, ID_SEPOMEX = ? , ID_REPRESENTANTE = ?, FECHA_CREACION =  NOW() " +
-                " WHERE ID = " + empresa.getId() + ";";
+        String qry = "UPDATE empresas SET NOMBRE = ?, TELEFONO = ?,CODIGO_POSTAL=?, ESTADO = ?, CIUDAD = ?, CALLE = ?, NUM_CALLE = ?,  ID_REPRESENTANTE = ?, FECHA_CREACION =  NOW() " +
+                " WHERE ID = ?;";
         ConexionMySQL conexion = ConexionMySQL.getInstance();
-        PreparedStatement preparedStmt=null ;
+        PreparedStatement preparedStmt = null;
         try {
             conexion.connect();
 
-             preparedStmt = conexion.getConnection().prepareStatement(qry);
+            preparedStmt = conexion.getConnection().prepareStatement(qry);
             preparedStmt.setString(1, empresa.getNombre());
             preparedStmt.setString(2, empresa.getTelefono());
-            preparedStmt.setString(3, empresa.getCalle());
-            preparedStmt.setString(4, empresa.getNumCalle());
-            preparedStmt.setInt(5, empresa.getCodigoPostal().getId());
-            preparedStmt.setInt(6, empresa.getRepresentante().getId());
+            preparedStmt.setInt(3, empresa.getCodigoPostal());
+            preparedStmt.setString(4, empresa.getEstado());
+            preparedStmt.setString(5, empresa.getCiudad());
+            preparedStmt.setString(6, empresa.getCalle());
+            preparedStmt.setString(7, empresa.getNumCalle());
+            preparedStmt.setInt(8, empresa.getRepresentante().getId());
+            preparedStmt.setInt(9, empresa.getId());
 
             boolean result = preparedStmt.execute();
 
@@ -192,8 +202,8 @@ public class EmpresaDAO {
 
     public Response insert(Empresa empresa) {
 
-        String qry = "INSERT INTO empresas SET NOMBRE = ?, TELEFONO = ?, CALLE = ?, NUM_CALLE = ?, ID_SEPOMEX = ?," +
-                " ID_REPRESENTANTE = ?, FECHA_CREACION = NOW();";
+        String qry = "INSERT INTO empresas SET NOMBRE = ?, TELEFONO = ?, CODIGO_POSTAL = ?, ESTADO = ?, CIUDAD = ?, CALLE = ?, NUM_CALLE = ?, " +
+                " ID_REPRESENTANTE = ?, ID_CREACION = ?, FECHA_CREACION = NOW();";
 
         ConexionMySQL conexion = ConexionMySQL.getInstance();
 
@@ -203,10 +213,18 @@ public class EmpresaDAO {
             PreparedStatement preparedStmt = conexion.getConnection().prepareStatement(qry);
             preparedStmt.setString(1, empresa.getNombre());
             preparedStmt.setString(2, empresa.getTelefono());
-            preparedStmt.setString(3, empresa.getCalle());
-            preparedStmt.setString(4, empresa.getNumCalle());
-            preparedStmt.setInt(5, empresa.getCodigoPostal().getId());
-            preparedStmt.setInt(6, empresa.getRepresentante().getId());
+            preparedStmt.setInt(3, empresa.getCodigoPostal());
+            preparedStmt.setString(4, empresa.getEstado());
+            preparedStmt.setString(5, empresa.getCiudad());
+            preparedStmt.setString(6, empresa.getCalle());
+            preparedStmt.setString(7, empresa.getNumCalle());
+            preparedStmt.setInt(8, empresa.getRepresentante().getId());
+
+            if (empresa.getUsuarioCreador() != null) {
+                preparedStmt.setInt(9, empresa.getUsuarioCreador().getId());
+            } else {
+                preparedStmt.setNull(9, Types.INTEGER);
+            }
 
 
             int result = preparedStmt.executeUpdate();
